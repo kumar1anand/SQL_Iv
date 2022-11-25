@@ -1,0 +1,168 @@
+﻿@page
+@model Restaurant_management_system.Pages.pizzaModel
+@{
+}
+
+<div class="text-success fw-bold">
+    @Model.cust_n
+</div>
+
+
+@*<div class="text-center">   
+    <a class="btn btn-outline-primary" href="./Burger"> Burger</a>
+    <a class="btn  btn-outline-secondary" href="./pizza"> pizza</a>
+    <a class="btn btn-outline-success" href="./pasta"> pasta </a>
+    <a class="btn btn-outline-warning" href="./Fries"> Fries</a>
+</div><br />*@
+
+<form method="post">
+    
+<div class="grid-container">
+    
+    <div class="grid-item">
+        <div>
+            <img src="./Images/pizza1.png" /><br /><br />
+            <p>
+                    <div class="row-cols-1 col-md-auto" >
+                        <label class="col-form-label"> Pizza price:  </label>
+                        <div>
+                            <input type="text" class=" form-control" name="pizza_p" value=@Model.i1.pizza_p readonly></input>
+                        </div>
+                    </div>
+                  
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Quantity: </label>
+                            <select  name="pizza" class="form-control" required>
+                                <option value=0 >Select Quantity</option>
+                                <option >1</option>
+                                <option>2</option>
+                                <option >3</option>
+                                <option >4</option>
+                                <option >5</option>
+                        </select>
+                    </div>
+                    
+                  
+                    
+            </p>
+            <p>This is chinese pizza.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="grid-item">
+        <div>
+            <img src="./Images/pasta1.png" /><br /><br />
+                <p>
+                    <div class="row-cols-1 col-md-auto">
+                        <label class="col-form-label"> Pasta price:  </label>
+                        <div>
+                            <input type="text" class=" form-control" name="pasta_p" value=@Model.i1.pasta_p readonly></input>
+                        </div>
+                    </div>
+                 
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2"> Quantity: </label>
+                        <select name="pasta" class="form-control" required>
+                          <option value=0 >Select Quantity</option>
+                                <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value =3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select>
+                    </div>
+                   
+                </p>
+            <p>This is chinese pasta.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="grid-item">
+        <div>
+            <img src="./Images/bug1.png" /><br /><br />
+                <p>
+                    <div class="row-cols-1 col-md-auto">
+                        <label class="col-form-label"> Burger price:  </label>
+                        <div>
+                            <input type="text" class=" form-control" name="burger_p" value=@Model.i1.burger_p readonly></input>
+                        </div>
+                    </div>
+
+                  
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Quantity: </label>
+                        <select class="form-control"  name="burger" required>
+                          <option value=0 >Select Quantity</option>
+                                <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value =3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select>
+                    </div>
+                  
+                   
+                </p>
+            <p>This is chinese burger.</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="grid-item">
+        <div>
+            <img src="./Images/fries.png" /><br /><br />
+                <p>
+                    <div class="row-cols-1 col-md-auto">
+                        <label class="col-form-label"> Fries price:  </label>
+                        <div>
+                            <input type="text" class=" form-control" name="fries_p" value=@Model.i1.fries_p readonly> </input>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect2">Quantity: </label>
+                        <select  name="fries" class="form-control" required>
+                            <option value=0>Select Quantity</option>
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                        </select>
+                    </div>
+                    
+                </p>
+            <p>This is chinese fries.</p>
+        </div>
+    </div>
+ 
+</div>
+
+
+    <div>
+        <button class="btn btn-success">SUBMIT</button>
+        <a href="/Login" type="reset" class="btn btn-danger">Cancel</a>
+    </div>
+</form>
+
+@if (Model.success_msg.Length > 0)
+{
+    <p class="text-black bg-primary">Order Confirmed</p>
+
+        <a href="/BillGenerator?cust_id=@Model.custom_id" class="btn btn-warning"> Click here see Receipt</a>
+    
+  
+}

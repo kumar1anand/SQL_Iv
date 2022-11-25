@@ -1,0 +1,51 @@
+﻿@page
+@model Restaurant_management_system.Pages.AdminModel
+@{
+}
+@if (Model.success_msg.Length > 0)
+{
+    Response.Redirect("./AdminPage");
+    <div>
+        <div class="row-cols-1">
+            <div class="alert alert-success alert-dismissible">
+                @Model.success_msg
+
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+    </div>
+}
+@if (Model.error_msg.Length > 0)
+{
+
+    <div>
+        <div class="row-cols-1">
+            <div class="alert alert-danger alert-dismissible">
+                @Model.error_msg
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+    </div>
+}
+
+<form method="post">
+    <div class="row row-cols-1">
+        <label class="col-form-label">Admin Email</label>
+        <div>
+            <input type="email" class="form-control" name="AdminEmail" value="" required>
+        </div>
+        <label class="col-form-label">Password</label>
+        <div>
+            <input type="password" class="form-control" name="AdminPassword" value="" required>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-success" >SUBMIT</button>
+            <a href="./Index" type="reset" class="btn btn-danger">Cancel</a>
+        </div>
+
+    </div>
+</form>
+

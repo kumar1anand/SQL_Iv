@@ -1,0 +1,92 @@
+/* _content/Restaurant_management_system/Pages/About.cshtml.rz.scp.css */
+.jumbotron[b-1cyyixpinc] {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+}
+
+.bg-grey[b-1cyyixpinc] {
+    background-color: #f6f6f6;
+}
+
+.container-fluid[b-1cyyixpinc] {
+    padding: 60px 50px;
+}
+
+/* _content/Restaurant_management_system/Pages/AdminUserLogin.cshtml.rz.scp.css */
+p[b-ny78m7wlk9] {
+   width: 500px;
+    /*height: 100px;*/
+   margin-left:300px;
+    font-family:'Times New Roman';
+    font-size:20px;
+    animation-name: example-b-ny78m7wlk9;
+    animation-duration: 10s;
+}
+
+@keyframes example-b-ny78m7wlk9 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+p[b-ny78m7wlk9]{
+    align-content:center;
+}
+/* _content/Restaurant_management_system/Pages/Index.cshtml.rz.scp.css */
+body[b-v73x0zzgit] {
+    /*background-image: url("./wwwroot/Images/test_restro.png.avif");
+    background-color:red;*/
+}
+/* _content/Restaurant_management_system/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-4f5kj1y2yd] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-4f5kj1y2yd] {
+  color: #0077cc;
+}
+
+.btn-primary[b-4f5kj1y2yd] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-4f5kj1y2yd], .nav-pills .show > .nav-link[b-4f5kj1y2yd] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-4f5kj1y2yd] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-4f5kj1y2yd] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-4f5kj1y2yd] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-4f5kj1y2yd] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-4f5kj1y2yd] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Restaurant_management_system
+build_property.RootNamespace = Restaurant_management_system
+build_property.ProjectDir = C:\Users\anand.kumar\OneDrive - Entain Group\Documents\Final_Project\Restaurant_management_system\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\anand.kumar\OneDrive - Entain Group\Documents\Final_Project\Restaurant_management_system
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/AdminPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/BillGenerator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlsbEdlbmVyYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Burger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVyZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Fries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/MenuAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/MenuCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudUN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/pasta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGFzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/pizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGl6emEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1cyyixpinc
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/AdminUserLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Vc2VyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ny78m7wlk9
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v73x0zzgit
+
+[C:/Users/anand.kumar/OneDrive - Entain Group/Documents/Final_Project/Restaurant_management_system/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4f5kj1y2yd

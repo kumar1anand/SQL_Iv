@@ -1,0 +1,55 @@
+﻿@page
+@model Restaurant_management_system.Pages.LoginModel
+@{
+}
+<p class ="animated bounce infinite">Welcome to login page. Good to see you back..</p>
+
+@if (Model.success_msg.Length > 0)
+{
+    <p class="text-black bg-primary">Credentials Verified</p>
+    foreach (var x in Model.stu_list)
+    {
+
+        <a href="/pizza?cust_email=@x.cust_email&cust_password=@x.cust_password" class="btn btn-success"> Click here to Proceed</a>
+    }
+  
+
+}
+@if (Model.error_msg.Length > 0)
+{
+
+    <div>
+        <div class="row-cols-1">
+            <div class="alert alert-danger alert-dismissible">
+                @Model.error_msg
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+    </div>
+}
+
+
+<form method="post">
+    <div class="row row-cols-1">       
+
+        <label class="col-form-label">Customer Email</label>
+        <div>
+            <input type="email" class="form-control" name="CustomerEmail" value="" required>
+        </div>        
+        <label class="col-form-label">Password</label>
+        <div>
+            <input type="password" class="form-control" name="CustomerPassword" value="" required>
+        </div>          
+        <br>
+        <br>
+        <br>
+        <div>
+            <button class="btn btn-success">SUBMIT</button>
+            <a href="./Index" type="reset" class="btn btn-danger">Cancel</a>
+        </div>
+
+    </div>
+</form>
+
+
+

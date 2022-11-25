@@ -1,0 +1,29 @@
+﻿@page
+@model Restaurant_management_system.Pages.UpdateDetailsModel
+@{
+}
+<form method="post">
+
+    <div class="row-cols-1">
+        <label class="col-form-label">  Customer Name:  </label>
+        <div>
+            <input type="text" class=" form-control" name="name" value="@Model.update1.cust_name" required></input>
+        </div>
+        
+        
+        <label class="col-form-label"> Customer Eail ID:  </label>
+        <div>
+            <input type="email" class=" form-control" name="email_id" value="@Model.update1.cust_email" required></input>
+        </div>
+        <label class="col-form-label"> Customer password:  </label>
+        <div>
+            <input type="password" class=" form-control" name="pass" value="@Model.update1.cust_password" readonly></input>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button type="submit" class="btn btn-success">Update</button>
+            <a href="/AdminPage" type="reset" class="btn btn-danger">Cancel</a>
+        </div>
+    </div>
+</form>

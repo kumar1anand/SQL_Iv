@@ -1,0 +1,22 @@
+p[b-ny78m7wlk9] {
+   width: 500px;
+    /*height: 100px;*/
+   margin-left:300px;
+    font-family:'Times New Roman';
+    font-size:20px;
+    animation-name: example-b-ny78m7wlk9;
+    animation-duration: 10s;
+}
+
+@keyframes example-b-ny78m7wlk9 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+p[b-ny78m7wlk9]{
+    align-content:center;
+}

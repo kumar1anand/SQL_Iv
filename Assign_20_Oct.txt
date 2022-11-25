@@ -1,0 +1,60 @@
+1.Write a sql query to fetch the unique cities the employees of an organization belong to.
+solution:
+create database organization;
+
+create table emp(
+emp_id int,
+emp_name varchar(50),
+emp_dept varchar(50),
+emp_cities varchar(50),
+);
+select * from emp;
+
+insert into emp values(1,'anand','Engineering','patna')
+insert into emp values(2,'ayush','Engineering','kolkata')
+insert into emp values(3,'Ashutosh','Engineering','mathura')
+insert into emp values(4,'Aniket','marketing ','patna')
+insert into emp values(5,'Ankit','Planning','patna')
+insert into emp values(6,'shibu','admin','jaipur')
+insert into emp values(7,'shivam','sales','patna')
+insert into emp values(8,'madhav','designing','kolkata')
+
+delete from emp where  emp.emp_id=3; 
+select distinct emp_cities from emp;
+----------------------------------------------------------
+----------------------------------------------------------
+2.Create a cricket player table where the country name and the person name are together the primary key
+
+Solution: 
+create database cricket_player;
+
+create table cricket(
+crick_name varchar(50) NOT NULL,
+crick_country varchar(50) NOT NULL,
+crick_batsman varchar(50),
+primary key (crick_name, crick_country)
+);
+select * from cricket;
+
+DROP DATABASE cricket_player;
+
+ALTER TABLE cricket
+DROP COLUMN crick_batsman
+
+ALTER TABLE cricket
+ADD crick_batsman varchar(50) NOT NULL;
+
+ALTER TABLE cricket 
+ADD CONSTRAINT PK_CUSTID PRIMARY KEY (crick_name, crick_country);
+
+insert into cricket values('Dhoni','Dhoni','Right_Hand')
+insert into cricket values('Virat','India','Right_Hand')
+insert into cricket values('Surya','India','Right_Hand')
+insert into cricket values('Miller','South African','left_Hand')
+insert into cricket values('','South African','left_Hand')
+insert into cricket values('','','left_Hand')
+insert into cricket values(NULL,NULL,'left_Hand')
+
+---------------------------------------
+---------------------------------------
+3.

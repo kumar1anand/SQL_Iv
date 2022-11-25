@@ -1,0 +1,43 @@
+﻿@page
+@model Restaurant_management_system.Pages.BillGeneratorModel
+@{
+}
+<marquee style="text-color:green"> Thank you for visiting us...</marquee>
+<table>
+        <thead>
+            <tr>
+                <th>Pizza Quantity ||  </th>
+                 <th>Pizza Price || </th>
+                <th>Burger Quantity || </th>
+                <th>Burger Price || </th>
+                <th>Fries Quantity || </th>
+                <th>Fries Price || </th>
+                <th> Pasta Quantity || </th>
+                <th>Paasta Price || </th>
+                <th>Total Value || </th>
+               
+
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var x in Model.c_list)
+            {
+                <tr>
+                    <td>@x.pizza</td>
+                    <td>@x.pizza_price</td>
+                    <td>@x.burger</td>
+                     <td>@x.burger_price</td>
+                    <td>@x.fries</td>
+                     <td>@x.fries_price</td>
+                    <td>@x.pasta</td>
+                     <td>@x.pasta_price</td>
+                    <td>@x.total_bill</td>
+                   
+
+
+                </tr>
+            }
+        </tbody>
+
+    </table>

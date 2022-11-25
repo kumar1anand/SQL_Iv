@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+img{
+    height:100%;
+    width:100%
+}
+footer{
+    text-align:center;    
+}
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+.btn{
+    position:relative;
+    top:50%;
+}
+marquee{
+    text-overflow:ellipsis;
+    border-top-color:red;
+    color:brown
+}
+.container {
+    grid-template-columns: repeat(3, 2fr);
+}
+#item1 {
+    float: left;
+}
+#item1 {
+   float: left;
+}
+#item1 {
+   float: right;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 550px 550px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+img{
+
+}

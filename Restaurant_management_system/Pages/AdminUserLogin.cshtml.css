@@ -1,0 +1,22 @@
+﻿p {
+   width: 500px;
+    /*height: 100px;*/
+   margin-left:300px;
+    font-family:'Times New Roman';
+    font-size:20px;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+p{
+    align-content:center;
+}
